@@ -1,3 +1,5 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
 * {
     margin: 0;
     padding: 0;
@@ -5,7 +7,7 @@
   }
 
   body {
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", sans-serif;
     background-color: #e5e5e5;
     font-style: normal;
   }
@@ -16,19 +18,27 @@
     background-color: #000;
   }
   .index{
-    background-image: url('imgs/bg.jpg');
+    background-image: url('imgs/bg-hero-desktop.svg');
     background-repeat: no-repeat;
     background-size: 100%;
+    background-color: #fff;
+    height: 750px;
   }
+   
+  
 
+   .p-font{
+    color: #272a31;
+   }
   .headline{
-    top: 100px;
-    margin:150px;
+    margin:100px;
     
   }
   @media only screen and  (min-width:376px) and (max-width:780px) {
     .index{
-      background-image:none;
+      background-image: url('imgs/bg-hero.svg');
+      background-repeat: no-repeat;
+      background-size: 100%;
     }
 
     .headline{
@@ -47,14 +57,25 @@
         flex-direction: row;
         padding: 5px;
         height: auto;
-        gap: 5px;
+        gap: 10px;
         width: 100%;
-        justify-content: space-between;
+        justify-content:baseline;
         align-items: center;
         background-color:#303030;
 
     }
 
+    .p-content h6{
+      padding: 10px;
+    }
+
+    .p-content p{
+      padding: 10px;
+    }
+     
+    .p-content{
+      padding: 10px;
+    }
     .no-diplay{
         display: none;
     }
@@ -83,4 +104,14 @@
     display: flex;
     flex-direction: row;
     width: 70px;
+}
+
+.menu-item{
+  color:#272A31 ;
+  font:700px;
+}
+
+.menu-item:hover{
+  color:#EC5242;
+  font-size: larger;
 }
