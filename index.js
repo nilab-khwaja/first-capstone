@@ -71,8 +71,6 @@ const professorsDisplay = (name, summary, studies, imgSrc) => `<div class="profe
   </div>
 </div>`;
 
-
-
 const professorsButton = document.getElementById('more-professors-btn');
 if (window.matchMedia('(min-width: 700px)').matches) {
   professorsArray.forEach((professor) => {
@@ -83,7 +81,7 @@ if (window.matchMedia('(min-width: 700px)').matches) {
     professorsContainer.insertAdjacentHTML('afterbegin', htmlToAdd);
   });
 } else {
-  for (let i = professorsArray.length - 2; i < professorsArray.length; i++) {
+  for (let i = professorsArray.length - 2; i < professorsArray.length; i += 1) {
     const htmlToAdd = professorsDisplay(professorsArray[i].name,
       professorsArray[i].summary,
       professorsArray[i].studies,
@@ -92,7 +90,7 @@ if (window.matchMedia('(min-width: 700px)').matches) {
   }
   professorsButton.addEventListener('click', () => {
     professorsContainer.innerHTML = '';
-    for (let i = 0; i < professorsArray.length; i++) {
+    for (let i = 0; i < professorsArray.length; i += 1) {
       const htmlToAdd = professorsDisplay(professorsArray[i].name,
         professorsArray[i].summary,
         professorsArray[i].studies,
