@@ -46,7 +46,7 @@ body {
 
 .h-grd {
   font-weight: 1000;
-  font-size: 50px;
+  font-size: 70px;
   font-family: 'Lato', sans-serif;
   background: linear-gradient(45deg, #ec5242, #272a31, red);
   -webkit-text-fill-color: transparent;
@@ -96,7 +96,7 @@ body {
   transform: scale(1.1);
 }
 
-@media only screen and  (min-width: 376px) and (max-width: 780px) {
+@media only screen and  (min-width: 150px) and (max-width: 780px) {
   .top-nav {
     display: none;
   }
@@ -109,6 +109,11 @@ body {
     background-image: url('imgs/bg-hero.svg');
     background-repeat: no-repeat;
     background-size: 100%;
+  }
+
+  .h-grd{
+    font-size: 40px;
+    font-weight: 1000;
   }
 
   .headline {
@@ -132,6 +137,9 @@ body {
     justify-content: flex-start;
     padding-top: 30px;
     gap: 12px;
+    margin: 0;
+    padding-left:0;
+    padding-right: 0;
   }
 
   .p-content {
@@ -140,20 +148,24 @@ body {
     height: auto;
     gap: 10px;
     width: 100%;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     background-color: #303030;
+    padding:3px;
+    flex-wrap: nowrap;
   }
 
   .p-content img {
     width: 57px;
     height: 51px;
+    padding: 0 5px;
   }
 
   .p-content h6 {
     width: 65px;
     height: 24px;
-    text-align: center;
+    text-align: left;
+    padding:0 5px;
   }
 
   .p-content p {
@@ -164,6 +176,7 @@ body {
     width: 191px;
     height: 82px;
     text-align: left;
+    padding:0 10px;
   }
 
   .no-diplay {
@@ -269,6 +282,12 @@ body {
   .about-headline {
     text-align: left;
   }
+  
+  .about-img{
+    width: 300px;
+    height: 200px;
+  }
+
 }
 
 .bg-color {
@@ -414,13 +433,11 @@ body {
 
 @media screen and (min-width: 768px) {
   .featured-professors .professors-list {
-    align-self: center;
     display: grid;
-    grid-template-columns: repeat(2, 40vw);
-    padding-left: 120px;
-    padding-right: 20px;
-    justify-content: space-between;
+    grid-template-columns: repeat(2, 40%);
+    justify-content: space-around;
     align-items: center;
+    column-gap:30px ;
   }
 
   .more-professors-btn {
@@ -443,7 +460,7 @@ body {
     align-items: flex-start;
     margin-top: -50px;
     height: 300px;
-    gap: 10px;
+    gap: 5px;
   }
 
   .professor-name {
@@ -451,6 +468,7 @@ body {
     font-size: 24px;
     font-weight: 700;
     margin-bottom: 10px;
+    margin-top: 10px;
   }
 
   .professor-summary {

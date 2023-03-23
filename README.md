@@ -144,7 +144,6 @@ npx eslint .
 
 - Original design idea by [Cindy Shin in Behance](https://www.behance.net/adagio07).
 
-![image](https://user-images.githubusercontent.com/58553711/227087288-e5ba260b-bd6e-4b6f-a1d7-27690aa8fae8.png)
 
 - Project from [Microverse](https://bit.ly/MicroverseTN) html & css module
 
