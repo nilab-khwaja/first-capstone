@@ -142,10 +142,13 @@ npx eslint .
 
 ## Credits
 
-- The original design ideal [Microverse💕](https://www.figma.com/file/l7SqJ3ZfkAKih9sFxvWSR4/Microverse-Student-Project-1?node-id=23%3A10)
+- Original design idea by [Cindy Shin in Behance](https://www.behance.net/adagio07).
+
+![image](https://user-images.githubusercontent.com/58553711/227087288-e5ba260b-bd6e-4b6f-a1d7-27690aa8fae8.png)
+
 - Project from [Microverse](https://bit.ly/MicroverseTN) html & css module
 
-## Contributing
+#![Alt![Alt text](https://user-images.githubusercontent.com/58553711/227087288-e5ba260b-bd6e-4b6f-a1d7-27690aa8fae8.png) text![Alt text](https://user-images.githubusercontent.com/58553711/227087288-e5ba260b-bd6e-4b6f-a1d7-27690aa8fae8.png)](https://user-images.githubusercontent.com/58553711/227087288-e5ba260b-bd6e-4b6f-a1d7-27690aa8fae8.png)# Contributing
 
 Contributions, issues, and feature requests are welcome!
 Feel free to check the [issues page](https://github.com/nilab-khwaja/first-capstone/issues).
