@@ -19,9 +19,11 @@ body {
   background-size: 100%;
   height: auto;
 }
-.header{
+
+.header {
   height: 85px;
 }
+
 .menu {
   display: none;
 }
@@ -32,8 +34,8 @@ body {
   font-weight: 900;
 }
 
-.para-font{
-  color:#515151;
+.para-font {
+  color: #515151;
   font-weight: 400;
   font-size: 25px;
 }
@@ -46,7 +48,7 @@ body {
   font-weight: 1000;
   font-size: 50px;
   font-family: 'Lato', sans-serif;
-  background: linear-gradient(45deg, #ec5242, #272a31,red);
+  background: linear-gradient(45deg, #ec5242, #272a31, red);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
 }
@@ -55,7 +57,7 @@ body {
   height: auto;
 }
 
-.bar1{
+.bar1 {
   width: 40px;
   background-color: red;
   height: 3px;
@@ -65,22 +67,22 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
+
 .p-content {
   height: 231px;
-  width:25%;
+  width: 25%;
 }
 
-.p-content img{
- height: 58px;
+.p-content img {
+  height: 58px;
 }
 
-.p-content h6{
-
- height: 27px;
- text-align: center;
+.p-content h6 {
+  height: 27px;
+  text-align: center;
 }
 
-.p-content p{
+.p-content p {
   color: #fff;
   font-family: 'Lato', sans-serif;
   font-weight: 700;
@@ -89,20 +91,20 @@ body {
   text-align: center;
 }
 
-.p-content:hover{
+.p-content:hover {
   border: 3px solid #fff;
-  transition: scale(1,1);
+  transform: scale(1.1);
 }
 
 @media only screen and  (min-width: 376px) and (max-width: 780px) {
-  .top-nav{
+  .top-nav {
     display: none;
   }
-  
-  .header{
+
+  .header {
     height: 75px;
   }
-  
+
   .index {
     background-image: url('imgs/bg-hero.svg');
     background-repeat: no-repeat;
@@ -113,17 +115,16 @@ body {
     top: 100px;
     margin: 30px;
   }
-  
+
   .p-font {
     font-size: 20px;
     font-weight: 900;
   }
-  
-  .para-font{
+
+  .para-font {
     font-weight: 400;
     font-size: 12px;
   }
-  
 
   .program {
     display: flex;
@@ -137,33 +138,33 @@ body {
     display: flex;
     flex-direction: row;
     height: auto;
-    gap:10px;
+    gap: 10px;
     width: 100%;
     justify-content: space-between;
-    align-items:center;
+    align-items: center;
     background-color: #303030;
   }
 
-  .p-content img{
+  .p-content img {
     width: 57px;
-    height:51px;
-   }
-   
-   .p-content h6{
+    height: 51px;
+  }
+
+  .p-content h6 {
     width: 65px;
     height: 24px;
     text-align: center;
-   }
-   
-   .p-content p{
-     color: #fff;
-     font-family: 'Lato', sans-serif;
-     font-weight: 700;
-     font-size: 12px;
-     width: 191px;
-     height: 82px;
-     text-align: left;
-   }
+  }
+
+  .p-content p {
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    width: 191px;
+    height: 82px;
+    text-align: left;
+  }
 
   .no-diplay {
     display: none;
@@ -257,21 +258,16 @@ body {
     gap: 10px;
   }
 
-  .footer-mobile{
-    display: none;
-  }
-  .mob-partner{
+  .footer-mobile {
     display: none;
   }
 
-  .about-headline{
+  .mob-partner {
+    display: none;
+  }
+
+  .about-headline {
     text-align: left;
-  }
-
-  .about-para{
-    width: 100%;
-    border: solid 2px #fff;
-    background-color: none;
   }
 }
 
@@ -312,7 +308,7 @@ body {
   color: #272a31;
   font-size: 14px;
   font-weight: 800;
-  font-family: 'Lato',sans-serif;
+  font-family: 'Lato', sans-serif;
 }
 
 .nav-link:hover {
@@ -333,7 +329,6 @@ body {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-
 }
 
 .featured-professors .professors-list {
@@ -345,7 +340,6 @@ body {
   padding-left: 25px;
   align-items: center;
 }
-
 
 .featured-professors .professors-list .professor {
   display: flex;
@@ -363,7 +357,6 @@ body {
   color: white;
   width: 110px;
   height: 106px;
- 
 }
 
 .img-container img {
@@ -373,28 +366,26 @@ body {
   width: 110px;
   height: 110px;
 }
-.professor-info-container{
+
+.professor-info-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   margin-top: 20px;
-  
 }
+
 .professor-name {
-  font-family: "Cocogoose", sans-serif;
   font-size: 15px;
   font-weight: 700;
   margin-bottom: 10px;
-  font-family: 'Lato',sans-serif;
+  font-family: 'Lato', sans-serif;
 }
 
 .professor-summary {
-  font-family: "Lato", sans-serif;
   font-size: 10px;
   margin-bottom: 2px;
   color: #ec5242;
   font-weight: 700;
-
 }
 
 .professor hr {
@@ -432,7 +423,6 @@ body {
     align-items: center;
   }
 
-
   .more-professors-btn {
     display: none;
   }
@@ -441,12 +431,13 @@ body {
     width: 400px;
     height: 300px;
   }
+
   .img-container img {
     width: 210px;
     height: 210px;
   }
 
-  .professor-info-container{
+  .professor-info-container {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -454,36 +445,32 @@ body {
     height: 300px;
     gap: 10px;
   }
+
   .professor-name {
     font-family: "Cocogoose", sans-serif;
     font-size: 24px;
     font-weight: 700;
     margin-bottom: 10px;
-    font-family: 'Lato';
   }
-  
+
   .professor-summary {
-    font-family: "Lato", sans-serif;
     font-size: 15px;
     margin-bottom: 2px;
     color: #ec5242;
     font-weight: 700;
-  
   }
-  
+
   .professor hr {
     width: 20px;
     color: #757370;
     margin-bottom: 2px;
   }
-  
+
   .professor-studies {
-    font-family: "Lato", sans-serif;
     font-size: 14px;
     color: #4a4848;
     font-weight: 700;
   }
-  
 }
 
 .partners {
@@ -505,7 +492,7 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 20px;
-  font-weight: 900px;
+  font-weight: 900;
   text-align: center;
   color: #fff;
 }
