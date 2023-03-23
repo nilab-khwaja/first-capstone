@@ -12,27 +12,27 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container-fluid">
-        <div class="index pb-sm-5 bg-light">
-        <section class="header container-fluid bg-white">
-            <navbar class="d-flex justify-content-between align-items-baseline  mt-sm-3">
+    <div class="container-fluid m-0 p-0">
+        <div class="index pb-sm-5 bg-light d-flex flex-column gap-0">
+            <div class="d-sm-none top-nav d-lg-flex d-md-flex justify-content-end gap-4 p-1 align-items-end bg-dark">
+                <img src="imgs/facebook.svg" width="20px" alt="facebook icon">
+                <img src="imgs/twitter.svg" width="20px" alt="twitter icon">
+                <span  class="text-muted">English</span>
+                <span  class="text-muted">My Page</span>
+                <span  class="text-muted me-5">Logout</span>
+            </div>
+        <section class="header container-fluid bg-white ">
+            <navbar class="d-flex justify-content-between align-items-baseline mt-sm-3 p-0 m-0 gap-5">
                 <div class="d-none d-md-block d-lg-block fs-5 ms-5 mob-logo"> 
                       <a href="#">
-                      <img width="140px" src="./imgs/logo.jpg" alt="Techno logo" class="bg-light" />
+                      <img width="120px" src="./imgs/logo.jpg" alt="Techno logo" class="bg-light" />
                       </a>
                 </div>
-                <div class="d-flex gap-5 justify-content-between align-items-center p-1">
                 <div class="hamburger d-sm-flex flex-column d-md-none d-lg-none p-3">
                     <span class="d-block bar"></span>
                     <span class="d-block bar"></span>
                     <span class="d-block bar"></span>
                 </div>
-                <div class="d-block d-md-none d-lg-none ms-5"> 
-                    <a href="#">
-                    <img width="140px" src="./imgs/logo.jpg" alt="Techno logo" class="bg-light" />
-                    </a>
-              </div>
-              </div>
                 <div class="d-none d-md-block me-5">
                     <ul class="d-flex  justify-content-end align-items-baseline p-1 gap-5 justify-content-between me-5">
                         <li class="list-inline "><a href="about.html" class="text-decoration-none nav-link ">About</a></li>
@@ -56,46 +56,50 @@
     
 
         <section class="headline d-flex flex-column gap-1 justify-content-between  align-items-baseline ">
-            <span class="size font-color text-xl font-medium text-md-3xl font-monospace ">"Hello! Tech Lover"</span>
-            <div><h1 class=" h-grd">The TECH-No GLOBAL<br>ANNUAL EVENT 2023</h1></div>
-            <p class="p-font  border border-3 border-light p-3">In our day-to-day life technology is very useful and important. Furthermore, it <br>has made communication
+            <span class="size font-color text-xl font-medium text-md-3xl fw-semibold ">"Hello! Tech Lover"</span>
+            <div ><h1 class=" h1 h-grd ">TECH-No GLOBAL<br> ANNUAL EVENT <br>2023</h1></div>
+            <p class="para-font  border border-3 border-white p-3">In our day-to-day life technology is very useful and important. Furthermore, it <br>has made communication
                  much easier than ever before. The introduction<br> of modified and advanced innovations of phones and its application has made<br> connecting to people much easier</p>
-                <span class="p-font"> 2023.12.30(THU) ~ 16(Sat) </span>
-                  <p class="mt-2 p-font" >  @National Musem of korean art, central Nabi and more </p>
+                <span class="p-font fw-bolder"> 2023.12.30(THU) ~ 16(Sat) </span>
+                  <p class="mt-2 para-font" >  @National Musem of korean art, central Nabi and more </p>
         </section>
         </div>
+
         <section class="program-section container-fluid bg-dark mb-5" >
             <div class="d-flex flex-column justify-content-center align-item-center m-lg-auto p-lg-5 m-sm-1 p-sm-1">
-                <h4 class="text-center text-white p-sm-4 font-meduim pt-5">Main Program</h4>
-                <div class="container-fluid program d-flex  flex-md-row flex-lg-row justify-content-center align-items-baseline m-lg-auto p-lg-5 gap-1" >
+                <div class="d-flex flex-column justify-content-center align-items-center">
+                <h4 class="text-white  text-2xl font-medium text-center pt-3">Main Program</h4>
+                <span class="bar1"></span>
+                </div>
+                <div class="container-fluid program d-flex  flex-md-row flex-lg-row justify-content-center align-items-baseline m-lg-auto p-lg-5 gap-md-1 gap-lg-1" >
                    <div class="p-content bg-color d-flex flex-lg-column  flex-md-column gap-1 justify-content-around align-items-center  p-4">
-                    <img src="imgs/icons4.png" width="44px" alt="first program icon">
+                    <img src="imgs/icons4.png" alt="first program icon">
                     <h6 class="font-color">Lecture</h6>
                     <p class="text-white">The director of Ex-investor will begin by introducing the history
                         of the event, explaining the initial idea and how we achieved
                         success.</p>
                    </div>
                    <div class="p-content bg-color d-flex flex-lg-column  flex-md-column gap-1 justify-content-between align-items-center  p-4 ">
-                    <img src="imgs/icons.png" width="44px" alt="first program icon">
+                    <img src="imgs/icons.png"  alt="first program icon">
                     <h6 class="font-color">CC Exhabition</h6>
                     <p class="text-white"> Furthermore, the director will elaborate on the factors that have
                         contributed to the event's success and how the team overcame
                         challenges.</p>
                    </div>
                    <div class="p-content bg-color d-flex flex-lg-column  flex-md-column gap-1 justify-content-between align-items-center  p-4 ">
-                    <img src="imgs/icons2.png" width="44px" alt="first program icon">
+                    <img src="imgs/icons2.png"  alt="first program icon">
                     <h6 class="font-color">Forum</h6>
                     <p class="text-white">Attendees can expect to gain valuable insights into the event's
                         development and learn about the devlopment.</p>
                    </div>
                    <div class="p-content bg-color d-flex flex-lg-column  flex-md-column gap-1 justify-content-between align-items-center  p-4 ">
-                    <img src="imgs/icons5.png" width="44px" alt="first program icon">
+                    <img src="imgs/icons5.png"  alt="first program icon">
                     <h6 class="font-color">Workshop</h6>
                     <p class="text-white">This will include an explanation of the initial idea behind the
                         event and how it has evolved over time.</p>
                    </div>
                    <div class="p-content bg-color d-flex flex-lg-column  flex-md-column gap-1 justify-content-between align-items-center  p-4 ">
-                    <img src="imgs/icons3.png" width="44px" alt="first program icon">
+                    <img src="imgs/icons3.png"  alt="first program icon">
                     <h6 class="font-color">CC Inigt</h6>
                     <p class="text-white">The director will shed light on the strategies and efforts that
                         have contributed to the event's triumphs and the challenges that
@@ -108,18 +112,21 @@
         </section>
 
         <!---speaker section-->
-        <section class="container-fluid featured-professors">
-            <h3 class="font-color text-2xl font-medium text-center">Featured Professors</h3>
+        <section class="featured-professors">
+            <div class="d-flex flex-column justify-content-center align-items-center">
+                <h3 class="text-dark p-2 text-2xl font-medium text-center">Featured Professors</h3>
+                <span class="bar1"></span>
+                </div>
             <span class="main-program-hr"></span>
             <article class="professors-list" id="professors-list">
             </article>
             <button type="button" class="more-professors-btn" id="more-professors-btn">More..</button>
           </section>
 
-          <!-----footer section-->
-          <section class="partners container-fluid ">
-            <h3 class="text-center text-dark p-lg-5 p-md-4 p-sm-2 fw-bolder">Partners</h3>
-            <div class="d-flex justify-content-around flex-wrap gap-2 align-items-center p-2 m-auto ">
+          <!-----partner section-->
+          <section class="partners container-fluid mob-partner ">
+            <h3 class="text-center text-white p-lg-5 p-md-4 p-sm-2 fw-bolder">Partners</h3>
+            <div class="d-flex justify-content-center flex-wrap gap-4 align-items-center p-2 m-auto ">
                 <img src="imgs/mozilla 1.png"  width="150px" alt="partners logo"/>
                 <img src="imgs/naver 1.png" width="150x" alt="partners logo"/>
                 <img src="imgs/googlekorea 1.png" width="150px" alt="partners logo"/>
@@ -129,15 +136,15 @@
           </section>
 
           <!----footer-->
-          <section class="container-fluid bg-white footer p-5 m-auto">
-            <div class="d-flex justify-content-around align-items-center g-2">
+          <section class="container-fluid d-md-flex d-lg-flex justify-content-between align-items-center bg-white footer p-5 m-auto footer-mobile">
+            <footer class="d-md-flex d-lg-flex justify-content-center align-items-center p-2 m-auto ">
                 <img src="imgs/logo.jpg" width="200" alt= "footer logo">
-                <div class="d-flex flex-column gap-3">
+                <div class="d-flex flex-column gap-3 justify-content-center align-items-baseline">
                     <p class="flex-nowrap">2023 Creative Commons Korea. Some Rights Reserved.</p>
-                    <p class="d-lg-block d-md-block no-diplay">달리 정하지 않은 웹사이트의 모든 내용은 크리에이티브 커먼즈 저작자표시 2.0 대한민국 라이선스에 따라 이용할 수 있습니다.
-                        자세한 이용기능 내용과 허락조건은 http://creativecommons.org/licences/by/2.0/kr 를 보세요.</p>
+                    <p class="d-lg-block d-md-block no-diplay">달리 정하지 않은 웹사이트의 모든 내용은 않은 웹 .
+                        자세한 이용기능 내용과 허락조건은<br> http://creativecommons.org/licences/by/2.0/kr 를 보세요.</p>
                 </div>
-            </div>
+            </footer>
           </section>
     </div>
          

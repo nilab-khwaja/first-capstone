@@ -23,7 +23,7 @@ const professorsArray = [
   {
     name: 'SohYeong Noh',
     summary: 'Director of Art Centre Nabi and a board member of CC Korea',
-    studies: 'As the main venue for new media art production in Korea, Nabi promotes cross-disciplinary collaboration and understanding among science technology, humanities, and the arts.',
+    studies: 'As the main venue for new media art production in Korea, Nabi promotes cross-disciplinary collaboration and understanding.',
     imgSrc: 'imgs/b1.jpg',
   },
   {
@@ -35,25 +35,25 @@ const professorsArray = [
   {
     name: 'Ryan Merkley',
     summary: 'Berkman Professor of EnterPreneurial Legal Studies at Harvard Law School',
-    studies: 'Benkler studies commons-based peer production, and published his seminal book The Wealth of Networks in 2006',
+    studies: 'Benkler studies commons-based peer production, and published his seminal book, The Wealth of Networks in 2006',
     imgSrc: 'imgs/b3.jpg',
   },
   {
     name: 'Lila Tretikov',
     summary: 'Executive Director of the Wikimedia Foundation',
-    studies: 'Lila Tretikov is the Executive of the Wikimedia Foundation, the nonprofit organization that operates Wikipedia. Wikipedia is freely available in 290 languag-es and used by nearly half a billion people around the world every month.',
+    studies: 'Lila Tretikov is the Executive of the Wikimedia Foundation, the nonprofit organization that operates Wikipedia. Wikipedia is freely available.',
     imgSrc: 'imgs/g1.jpg',
   },
   {
     name: 'Kilnam Chon',
     summary: 'Berkman Professor of EnterPreneurial Legal Studies at Harvard Law School',
-    studies: 'Kilnam Chon helped bring the internet to Asia and is an outspoken advocate for the open web and digital com-mons. In 2012. he was inducted into the inaugural class of the Internet Society’s (ISOC) Internet Hall of Fame',
+    studies: 'Kilnam Chon helped bring the internet to Asia and is an outspoken advocate for the open web and digital com-mons. In 2012. ',
     imgSrc: 'imgs/b4.jpg',
   },
   {
     name: 'Julia Reda',
     summary: 'President of Young Pirates of Europe',
-    studies: 'European ingetration, political democracy and participation of youth through online as her major condern, Reda’s report outlining potential changes to EU copyright law was approved by the Parliament in July',
+    studies: 'European ingetration, political democracy and participation of youth through online as her major condern, Reda’s reports',
     imgSrc: 'imgs/g2.jpg',
   },
 ];

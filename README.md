@@ -92,7 +92,7 @@ git clone https://github.com/nilab-khwaja/first-capstone.git
 
 - Navigate to the location of the folder in your machine:
 
-**``you@your-Pc-name:~$ cd My_Portfolio``**
+**``you@your-Pc-name:~$ cd first-capstone``**
 
 ### Usage
 
