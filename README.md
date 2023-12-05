@@ -64,9 +64,7 @@ Javascript
 - [Live Demo Link]( https://nilab-khwaja.github.io/first-capstone/)
 
 
-> Here you can see a loom vedio about the Project
-
-- [Loom vedio description](https://www.loom.com/share/dae469f143234fc29dc80ed72eb621b6)
+> Here you can see a loom vedio about the project
 
 
 <!-- GETTING STARTED -->
